@@ -17,6 +17,7 @@
             width: 500px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
         }
 
         caption{
@@ -36,8 +37,14 @@
             background-color: rgba(169, 169, 169, 0.256);
         }
 
+        thead > tr > th{
+            position: sticky;
+            top: 0px;
+            background-color: #3f3e3e;;
+        }
+
         thead, tfoot{
-            background-color: rgb(63, 62, 62);
+            background-color: #3f3e3e;
             color: white;
         }
 
@@ -218,7 +225,6 @@
             </tr>
         </tfoot>
     </table>
- 
-
+    
 </body>
 </html>
